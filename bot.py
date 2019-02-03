@@ -816,7 +816,7 @@ def send_welcome(message):
             log(message, answer)
             bot.send_chat_action(message.from_user.id, 'upload_photo')
             bot.send_photo(message.from_user.id, answer)
-    elif message.text == '95.0 м²':
+    elif message.text == '95 м²':
         directory = 'smth/kvadratura/95.0'
         all_files_in_directory = os.listdir(directory)
         print(all_files_in_directory)
