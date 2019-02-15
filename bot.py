@@ -98,7 +98,8 @@ def send_welcome(message):
         user_markup.row('⬅Главное меню')
         answer = 'Контактный номер :\n+998 94 666 64 44\n+998 78 122 05 05' \
                  '\nТелеграм канал :\n@smarthouses1' \
-                 '\nFacebook : \nhttps://www.facebook.com/smarthousesuz/'
+                 '\nFacebook : \nhttps://www.facebook.com/smarthousesuz/' \
+                 '\nInstagram: https://www.instagram.com/smart.houses/'
         log(message, answer)
         bot.send_message(message.from_user.id, answer, reply_markup=user_markup)
     elif message.text == 'Скоро':
@@ -310,7 +311,8 @@ def send_welcome(message):
         user_markup.row('⬅Main menu')
         answer = 'Call center :\n+998 94 666 64 44\n+998 78 122 05 05' \
                  '\nTelegram channel :\n@smarthouses1' \
-                 '\nFacebook : \nhttps://www.facebook.com/smarthousesuz/'
+                 '\nFacebook : \nhttps://www.facebook.com/smarthousesuz/' \
+                 '\nInstagram: https://www.instagram.com/smart.houses/'
         log(message, answer)
         bot.send_message(message.from_user.id, answer, reply_markup=user_markup)
     elif message.text == '🏙Residential complexes':
@@ -513,7 +515,8 @@ def send_welcome(message):
         user_markup.row('⬅Asosiy menyu')
         answer = 'Aloqa raqami :\n+998 94 666 64 44\n+998 78 122 05 05' \
                  '\nTelegram kanalimiz :\n@smarthouses1' \
-                 '\nFacebook : \nhttps://www.facebook.com/smarthousesuz/'
+                 '\nFacebook : \nhttps://www.facebook.com/smarthousesuz/' \
+                 '\nInstagram: https://www.instagram.com/smart.houses/'
         log(message, answer)
         bot.send_message(message.from_user.id, answer, reply_markup=user_markup)
     elif message.text == '🏙Turar-joy komplekslari':
